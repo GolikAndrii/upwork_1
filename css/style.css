@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .footer-bottom{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     width: 100%;
     height: 86px;
     background-color: #333333;
 }
+.sub-footer-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .footer-bottom__copyright{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    height: 86px;
+    align-items: center;
 }
 .footer-bottom p {
     color: #F7F9FB;
@@ -28,9 +32,7 @@
     color: #FE6600;
 }
 .footer-bottom__orange{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    height: 86px;
 }
 .footer-bottom__orange-btn{
     height: 51px;
@@ -41,4 +43,403 @@
 .footer-bottom__career{
     display: flex;
     justify-content: center;
+    height: 86px;
+    align-items: center;
+}
+.footer-bottom__career p{
+    cursor: pointer;
+}
+.footer-main{
+    background-color: #292929;
+    min-height: 500px;
+}
+.footer-main h3{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.sub-footer-main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 165px;
+}
+/*.footer-block-top{*/
+/*    margin: 50px 0;*/
+/*}*/
+.footer-block-top h4{
+    color: #7572B9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.footer-block-top h5{
+    color: #7572B9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.footer-block-top p{
+    color: #D0D0D0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer-block-top hr{
+    width: 240px;
+    border: 1px solid #3B3A3A;
+    flex-shrink: 0;
+}
+.footer-block-top span{
+    margin-top: -5px;
+    margin-right: 20px;
+}
+.mt-my{
+    margin-top: 5rem;
+}
+.consulting{
+    height: 287px;
+    border: 1px solid #000;
+    background: #7572B9;
+}
+.consulting p{
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+.button{
+    width: 233px;
+    height: 68px;
+    flex-shrink: 0;
+    background-color: #292929;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.button p{
+    color: #FFF;
+    font-size: 16px;
+}
+.button span{
+    margin-left: 10px;
+}
+.contact-us{
+    background-color: #ffffff;
+    height: 879px;
+}
+.contact-us form{
+    width: 623px;
+}
+.contact-us input{
+    background-color: #EFEFEF;
+    height: 63px;
+    border-radius: 15px;
+    border: none;
+}
+.contact-us form input::placeholder{
+    color: #681C6B;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.contact-us form a{
+    padding: 15px 55px;
+    background-color: #292929 ;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 17px;
+}
+.contact-us form a:hover{
+    background-color: #292929 ;
+    color: #FFF;
+}
+.contact-us h2{
+    color: #222;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+.contact-us p{
+    width: 446px;
+    color: #681C6B;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.about-us{
+    height: 358px;
+}
+.about-us__block-left h2{
+    color: #2D2D2D;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+.about-us__block-left h2 span{
+    color: #681C6B;
+}
+.about-us__block-left p{
+    color: #747474;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.about-us__block-right span{
+    color: #681C6B;
+    font-family: Playfair Display;
+    font-size: 126.729px;
+    font-style: normal;
+    font-weight: 700;
+}
+.about-us__block-right p{
+    color: #2D2D2D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    margin-top: -80px;
+}
+#about-us__name{
+    color: #2D2D2D;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+}
+#about-us__position{
+    color: #681C6B;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.offer{
+    height: 1539px;
+    background-color: #F9F9F9;
+}
+.offer h2{
+    color: #2D2D2D;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+.offer p{
+    color: #747474;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 632px;
+}
+.offer__linia{
+    border: 1px solid #681C6B;
+    opacity: 1;
+}
+.offer__img{
+    height: 367px;
+    min-width: 367px;
+    background-color: #FFF;
+    position: relative;
+}
+.offer__img hr{
+    background-color: #F3F3F3;
+    height: 5px;
+    border: 2px solid #F3F3F3;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 33px;
+    left: -25px;
+    width: 150px;
+}
+.offer__img img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.offer__img h2{
+    color: #2D2D2D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: 25px;
+    margin-bottom: -20px;
+}
+.offer__img p{
+    color: #3B3B3B;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 299px;
+    margin-left: 25px;
+}
+.offer__img h3{
+    color: #3B3B3B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 25px;
+}
+.business{
+    background-color: #FFF;
+    height: 1539px;
+    margin-top: -8em;
+}
+.business h2{
+    width: 390px;
+    color: #222;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+.business h2 span{
+    color: #681C6B;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+.business h2 i{
+    color: #FE6600;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+.business p{
+    color: #3B3B3B;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.business p span{
+    color: #2D2D2D;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 26px;
+}
+.business a{
+    padding: 15px 50px;
+    width: 271px;
+    height: 60px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: #681C6B;
+    text-decoration: none;
+}
+.business a span{
+    margin-left: 13px;
+}
+.main-page{
+    height: 1122px;
+    background: url("/img/dog.png");
+    background-size: cover;
+    position: relative;
+}
+.bg_img{
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    height: 1122px;
+    width: 100%;
+}
+.main-page h1{
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+    z-index: 100;
+}
+.main-page h1 span{
+    color: #681C6B;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+}
+.main-page a{
+    padding: 15px 50px;
+    width: 271px;
+    height: 60px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: #681C6B;
+    text-decoration: none;
+}
+.header {
+    height: 88px;
+}
+.navbar-brand{
+    color: #2D2D2D;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.navbar-brand span{
+    color: #681C6B;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.header_phone{
+    padding: 5px;
+    background-color: #FFF1E7;
+    border-radius: 8px;
+}
+.navbar-text{
+    height: 88px;
+    width: 213px;
+}
+.navbar-text p{
+    color: #2D2D2D;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+.navbar-nav a{
+    color: #2D2D2D;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    border-bottom: 10px solid transparent;
+}
+.navbar-nav a:hover{
+    color: #681C6B;
+    border-bottom: 10px solid #681C6B;
 }
