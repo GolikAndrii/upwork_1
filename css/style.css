@@ -399,8 +399,19 @@
     background-color: #681C6B;
     text-decoration: none;
 }
+.main-page p{
+    color: #681C6B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
 .header {
     height: 88px;
+    background-color: #FFF;
+    z-index: 2;
 }
 .navbar-brand{
     color: #2D2D2D;
@@ -442,4 +453,65 @@
 .navbar-nav a:hover{
     color: #681C6B;
     border-bottom: 10px solid #681C6B;
+}
+.pre-header{
+    height: 50px;
+    background-color: #681C6B;
+    width: 100%;
+}
+.icon-bg{
+    width: 38px;
+    height: 38px;
+    background-color: #262626;
+    border-radius: 50%;
+    z-index: 2;
+}
+.icon_mail{
+    margin-left: 9px;
+    margin-top: 9px;
+}
+.icon_right{
+    margin-left: 14px;
+    margin-top: 9px;
+}
+.icon_geo{
+    margin-left: 13px;
+    margin-top: 9px;
+}
+.pre-header__left p{
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.my-gap{
+    margin-left: 1rem;
+}
+.bg{
+    background-color: #1b1b1b;
+    position: relative;
+}
+.corne-left{
+    height: 100%;
+    width: 75px;
+    position: absolute;
+    top: -16px;
+    left: -47px;
+    background-color: #1b1b1b;
+    transform: rotate(45deg);
+    border-radius: 0 100% 8px 0;
+    border-bottom: 5px solid #4C3526;
+    z-index: 1;
+}
+.corne-right{
+    height: 100%;
+    width: 75px;
+    position: absolute;
+    top: -16px;
+    right: -47px;
+    background-color: #1b1b1b;
+    transform: rotate(315deg);
+    border-radius: 0 100% 0 8px;
+    border-bottom: 5px solid #4C3526;
 }
